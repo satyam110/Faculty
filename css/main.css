@@ -1,0 +1,128 @@
+.column,
+  .columns {
+    margin-top:20px;
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem; 
+    align-self: center;
+    float:left;
+}
+
+.l-1 {
+    width: 8.33333%; }
+
+  .l-2 {
+    width: 16.66667%; }
+
+  .l-3 {
+    width: 29.999999%; }
+
+  .l-4 {
+    width: 33.33333%; }
+
+  .l-5 {
+    width: 41.66667%; }
+
+  .l-6 {
+    width: 50%; }
+
+  .l-7 {
+    width: 58.33333%; }
+
+  .l-8 {
+    width: 66.66667%; }
+
+  .l-9 {
+    width: 75%; }
+
+  .l-10 {
+    width: 83.33333%; }
+
+  .l-11 {
+    width: 91.66667%; }
+
+  .l-12 {
+    width: 100%; }
+
+
+
+.show-btn{
+  padding: 11px 13px 11px 13px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 1px 1px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin:0px 0px 0px 10px;
+  transition: background-color 300ms ease-out;
+}
+
+.show-btn:hover,.show-btn:focus{
+    background-color: #007095; 
+    border-color: #007095;
+    box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+.th{
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px white;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-out; 
+  border-radius: 3px;
+}
+.th:hover, .th:focus {
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.6); }
+
+p{
+    margin:0px auto;
+}
+
+.btn {
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 30%;
+  border: 1px solid;
+  border-width: 1px 1px 1px 1px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+
+@media screen and (max-width: 992px) {
+  .column {
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .l-3 {
+      width: 100%;
+  }
+}

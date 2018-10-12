@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+}
+
+li {
+    float: left;
+}
+#right{
+    float: right;
+}
+#brand{
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 22px;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body{
+    margin:0px 0px 0px 0px;
+    font-family: 'Nunito', sans-serif;
+    background-image: url("bg-01.jpg");
+}
+
+li a:hover{
+    box-shadow: 0 20px 25px 0 rgba(0,0,0,0.8);
+}
+
+li a.active {
+    color: white;
+    background-color: #4BC970;
+}

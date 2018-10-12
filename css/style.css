@@ -1,0 +1,92 @@
+body{
+background-color: #fff;
+font-family: 'Nunito';
+}
+
+form{
+    padding: 40px;
+    width: 550px;
+    margin: 0 auto;
+    background: #f4f7f8;
+    border-radius: 8px
+}
+
+form input, select, textarea{
+    border: 1px;
+    font-size: 16px;
+    color: #222;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #E8EEEF;
+}
+
+form select{
+    width:100%;
+    height:30px;
+    padding 0px 3%;
+}
+
+form input{
+    width:100%;
+    height:30px;
+    padding 0px 5%;
+}
+
+form textarea{
+    padding: 6px 5%;
+    width:90%;
+    height:100px;
+    resize:none;
+}
+
+form button{
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    border: none;
+    border-radius:4px;
+    font-size:16px;
+    color:#fff;
+    cursor:pointer;
+}
+
+form button:hover{
+    background-color:#444;
+}
+form h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+::-webkit-input-placeholder{
+    color:#ccc;
+}
+
+::-moz-placeholder{
+    color:#ccc;
+}
+
+:-ms-input-placeholder{
+    color:#ccc;
+}
+
+:-moz-placeholder{
+    color:#ccc;
+}
+
+.form-message{
+   font-size:16px; 
+   font-weight: 600;
+    text-align: center;
+}
+
+.form-error{
+   color:red; 
+}
+
+.form-success{
+    color:green;
+}
+
+.input-error{
+    box-shadow: 0 0 5px red;
+}

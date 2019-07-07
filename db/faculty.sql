@@ -73,7 +73,6 @@ INSERT INTO `fac_info` (`fac_id`, `salut`, `fname`, `mname`, `lname`, `email`, `
 (1002, 'Mr.', 'A', 'B', 'XYZ', 'abc@gmail.com', 'H.O.D.', '12345678', 'Male', '2016-02-01', 'images/1.jpg'),
 (1352, 'Ms.', 'S', 'T', 'XYZ', 'st12@gmail.com', 'Asst. Professor', 'st1234567', 'Female', '2015-06-01', 'images/2.jpg'),
 (1621, 'Mr.', 'P', 'Q', 'RST', 'pq12@gmail.com', 'Asst. Professor', 'pq12345', 'Male', '2014-09-01', 'images/1.jpg'),
-(16006, 'Mrs.', 'Shila', 'Sumol', 'Jawale', 'shila.jawale@dmce.ac.in', 'Asst. Professor', '12345', 'Female', '2005-06-28', 'images/2.jpg'),
 (20439, 'Mr.', 'T', 'J', 'Jenkins', 'tj68@gmail.com', 'Asst.Professor', 'tj123', 'Male', '2014-01-02', 'images/2.jpg');
 
 -- --------------------------------------------------------
